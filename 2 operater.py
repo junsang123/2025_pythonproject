@@ -1,5 +1,8 @@
 x=10
 y=15
+
+
+
 z=x==y
 print('x==y:',z)
 z=x!=y
@@ -17,6 +20,8 @@ print('x*y:',z)
 z=x/y
 print('x/y:',z)
 z=x//y
+z=1+x*2
+print('1+x*2:',z)
 print('x//y : ' , z)
 str_x='hello'
 str_y='python'

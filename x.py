@@ -23,6 +23,16 @@ print(len(x))
 print(len(x)-1)
 x={'a':1,'b':2}#dictionary
 print(x['a'])
+x['c'] = 10
+print(x)
+print(x['c'])
+#print(x['d'] dmd dofjdi~
+del x['b']
+print(x)
+print(x.keys())
+print(x.values())
+print(x.items())
+print(x.clear())
 example = {
     'python': [True, False, True, True, True, True, True, False, False, True],
 }
