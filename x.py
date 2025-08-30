@@ -8,7 +8,19 @@ print(x)
 x=[1,2,3,4,5]#list
 print(x)
 print(x[0])
-
+x=x*2
+print('x*2:',x)
+print(x[2:4])
+x.append(7)
+print(x)
+x.insert(1,4)
+print(x)
+x.remove(1)
+print(x)
+x[0]=3
+print(x)
+print(len(x))
+print(len(x)-1)
 x={'a':1,'b':2}#dictionary
 print(x['a'])
 example = {
