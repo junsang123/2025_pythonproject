@@ -1,6 +1,4 @@
-from os.path import split
 
-from w import user_input
 
 score=int(input('입력'))
 
@@ -13,13 +11,13 @@ else:
             print("re")
     else:
             print('ㄴ')
-while True:
-    user_input("입력")
-    if user_input.lower()=="z":
-        break
+#while True:
+    #user_input("입력")
+    #if user_input.lower()=="z":
+       # break
 
-input_number=int(input("입력"))
-index=1
+input_number= int(input("입력"))
+index=2
 while index < input_number:
     print(index)
-    index+=1
+    index=index+2
