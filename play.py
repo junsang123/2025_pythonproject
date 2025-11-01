@@ -18,3 +18,6 @@ while True:
         break
 
     print_times_table(int(user_input))
+    #test
+    a=1
+    print(a)
