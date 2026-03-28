@@ -25,9 +25,9 @@ def t():
             break
         else:
             print("실패")
-            break
 
+print("택1or2")
+while True:
 
-t()
 
 
