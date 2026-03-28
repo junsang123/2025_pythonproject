@@ -1,23 +1,33 @@
+import random
 
-def print_times_table(number):
-    print(number, "*", 1, "=", number*1)
-    print(number, "*", 2, "=", number*2)
-    print(number, "*", 3, "=", number*3)
-    print(number, "*", 4, "=", number*4)
-    print(number, "*", 5, "=", number*5)
-    print(number, "*", 6, "=", number*6)
-    print(number, "*", 7, "=", number*7)
-    print(number, "*", 8, "=", number*8)
-    print(number, "*", 9, "=", number*9)
+a = random.randint(1, 100)
 
+def down():
+    while True:
+        b = int(input("입력"))
+        if b < a:
+            print("s")
+        else:
+            if b > a:
+                print("d")
+            elif b == a:
+                break
+import time
 
+def t():
+    while True:
+        s = time.time()
+        input()
+        e=time.time()
+        a = e - s
+        if 9.7<=a<=10.3:
+            print("성공")
+            break
+        else:
+            print("실패")
+
+print("택1or2")
 while True:
-    user_input = input("값을 입력하세요 : ")
 
-    if user_input.lower() == "z":
-        break
 
-    print_times_table(int(user_input))
-    #test
-    a=1
-    print(a)
+
